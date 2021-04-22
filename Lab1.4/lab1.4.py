@@ -29,10 +29,15 @@ class IPv4RandomNetwork(IPv4Network):
     def key_value(self):
         return int(self.network_address) + (int(self.netmask) << 32)
 
+list_of_subnets=[]
 
-for
+for i in range (0,10):
+    #print(IPv4RandomNetwork(8, 24).regular
+    subnet_random_and_reg = IPv4RandomNetwork(8, 24).regular
+    list_of_subnets.append(subnet_random_and_reg)
+    
 
-
+IPv4RandomNetwork(8, 24).regular
 IPv4RandomNetwork(8, 24).not_regular
 IPv4RandomNetwork(8, 24).is_private
 
